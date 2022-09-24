@@ -2,16 +2,16 @@
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float RRFE_a,RRFE_b;
+	cout<<"ingrese RRFE_a RRFE_b:"; cin>>RRFE_a>>RRFE_b;
+	if(RRFE_a>RRFE_b)
 	{
-	  cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<RRFE_a<<" es mayor RRFE_a "<<RRFE_b<<endl;
 
 
 	}else{
 
-	  cout<<b<<" es mayor a "<<a<<endl;
+	  cout<<RRFE_b<<" es mayor RRFE_a "<<RRFE_a<<endl;
 
 
 	}

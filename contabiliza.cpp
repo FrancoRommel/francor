@@ -3,19 +3,19 @@ using namespace std;
 
 int main()
 {
-	int i=0,l;
-	float x,s=0;
-	cout<<"ingrese el limite l="; cin>>l;
+	int RRFE_i=0,RRFE_l;
+	float RRFE_x,RRFE_s=0;
+	cout<<"ingrese el limite RRFE_l="; cin>>RRFE_l;
 	do{
 		
-	cout<<"ingrese el numero x="; cin>>x;
-	i=i+1;
-	s=s+x;
+	cout<<"ingrese el numero RRFE_x="; cin>>RRFE_x;
+	RRFE_i=RRFE_i+1;
+	RRFE_s=RRFE_s+RRFE_x;
 
 
 
-	}while(i<l);
-	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+	}while(RRFE_i<RRFE_l);
+	cout<<"Se ingresaron "<<RRFE_l<<" numeros "<< "que sumaron "<<RRFE_s<<endl;
 	return 0;
 
 
